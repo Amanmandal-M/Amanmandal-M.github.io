@@ -17,7 +17,7 @@ nav{
     margin: auto;
     padding: 20px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 nav ul li {
@@ -35,4 +35,37 @@ nav ul li a {
 
 nav ul li a:hover {
     color: red;
+}
+
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+
+span{
+    color:orange;
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #2d2c2ca4;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
 }
