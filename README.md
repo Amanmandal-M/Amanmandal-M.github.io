@@ -54,6 +54,8 @@
   - Element linked to Projects section : class="nav-link projects"
   - Element linked to Contact section : class="nav-link contact"
   - Element linked to Resume : class="nav-link resume"
+
+  
 - The following must be present within elements with the respective IDs:
   - Name : id="user-detail-name"
   - Formal introduction : id="user-detail-intro"
