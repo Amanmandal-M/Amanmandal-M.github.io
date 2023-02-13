@@ -17,9 +17,10 @@ function append() {
   var text = "I'm Aman Kumar";
   var i = 0;
   document.getElementById("user-detail-name").innerHTML=""
-  setInterval(() => {
+  let data1 = setInterval(() => {
     if (text[i] == undefined) {
-      return;
+        clearInterval(data1);
+        return;
     }
     document.getElementById("user-detail-name").innerHTML += text[i];
     i++;
@@ -30,8 +31,9 @@ function append2() {
     var text = "Node.js Backend Developer";
     var i = 0;
     document.getElementById("user-detail-intro").innerHTML=""
-    setInterval(() => {
+    let data1 = setInterval(() => {
       if (text[i] == undefined) {
+        clearInterval(data1);
         return;
       }
       document.getElementById("user-detail-intro").innerHTML += text[i];
