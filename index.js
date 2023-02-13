@@ -42,8 +42,11 @@ function append2() {
 append();
 append2();
 
-setInterval(()=>{
+let data = setInterval(()=>{
     append();
     append2();
-},10000)
+},8000)
 
+setTimeout(() => {
+    clearInterval(data);
+}, 10000);
