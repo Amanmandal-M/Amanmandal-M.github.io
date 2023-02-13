@@ -19,8 +19,7 @@ function append() {
   document.getElementById("user-detail-name").innerHTML=""
   let data1 = setInterval(() => {
     if (text[i] == undefined) {
-        clearInterval(data1);
-        return;
+        return clearInterval(data1);
     }
     document.getElementById("user-detail-name").innerHTML += text[i];
     i++;
@@ -33,8 +32,7 @@ function append2() {
     document.getElementById("user-detail-intro").innerHTML=""
     let data1 = setInterval(() => {
       if (text[i] == undefined) {
-        clearInterval(data1);
-        return;
+        return clearInterval(data1);
       }
       document.getElementById("user-detail-intro").innerHTML += text[i];
       i++;
