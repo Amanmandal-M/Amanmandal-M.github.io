@@ -8,6 +8,12 @@
 /* Small Size */
 @media screen and (min-width: 100px) and (max-width: 700px) {
 
+  .name{
+    font-family: cursive;
+    color: #000;
+    font-size: 24px;
+  }
+  
   #menu__toggle {
     opacity: 0;
   }
@@ -171,6 +177,12 @@
 /* Large Screen */
 @media screen and (min-width: 1300px) and (max-width: 3000px) {
 
+.name{
+  font-family: cursive;
+  color: #000;
+  font-size: 24px;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -184,7 +196,7 @@ nav {
   margin: auto;
   padding: 20px 0;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 nav ul li {
