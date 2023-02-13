@@ -96,3 +96,7 @@ span{
 .boy:hover{
    width: 55%;
 }
+
+#user-detail-intro{
+    font-size: 28px;
+}
