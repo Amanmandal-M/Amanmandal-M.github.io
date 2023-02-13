@@ -23,7 +23,7 @@ function append() {
     }
     document.getElementById("user-detail-name").innerHTML += text[i];
     i++;
-  }, 150);
+  }, 200);
 }
 
 function append2() {
@@ -36,7 +36,7 @@ function append2() {
       }
       document.getElementById("user-detail-intro").innerHTML += text[i];
       i++;
-    }, 150);
+    }, 200);
 }
 
 append();
@@ -45,5 +45,5 @@ append2();
 setInterval(()=>{
     append();
     append2();
-},7000)
+},10000)
 
