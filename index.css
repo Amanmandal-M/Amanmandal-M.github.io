@@ -456,6 +456,13 @@ nav ul li a:hover {
   display: none;
 }
 
+.detel>a:hover{
+  cursor: pointer;
+  width: 12%;
+  height: 24px;
+  font-size: 22px;
+}
+
 }
 
 
