@@ -28,7 +28,7 @@ function append() {
 }
 
 function append2() {
-    var text = "Node.js Backend Developer";
+    var text = "Backend Developer";
     var i = 0;
     document.getElementById("user-detail-intro").innerHTML=""
     let data1 = setInterval(() => {
