@@ -8,12 +8,6 @@
 /* Small Size */
 @media screen and (min-width: 100px) and (max-width: 700px) {
 
-  .name{
-    font-family: cursive;
-    color: #000;
-    font-size: 24px;
-  }
-  
   #menu__toggle {
     opacity: 0;
   }
@@ -86,6 +80,15 @@
     background-color: #cfd8dc;
   }
 
+/* -------------------------------------- */
+
+  .name{
+    font-family: cursive;
+    color: #000;
+    font-size: 24px;
+  }
+
+
   .hero {
     position: relative;
     width: 100%;
@@ -126,6 +129,7 @@
   
   .detel p {
     color: #555;
+    font-size: 24px;
     line-height: 22px;
   }
   
@@ -152,6 +156,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
   }
 
 
@@ -170,6 +175,180 @@
 /* Medium Size */
 @media screen and (min-width: 701px) and (max-width: 1299px){
 
+
+  #menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: 0.25s;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #eceff1;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.25s;
+  }
+  .menu__item:hover {
+    background-color: #cfd8dc;
+  }
+
+/* -------------------------------------- */
+
+  .name{
+    font-family: cursive;
+    color: #000;
+    font-size: 24px;
+  }
+
+
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+  }
+  
+  nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .detel {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+  }
+  
+  .detel p {
+    color: #555;
+    font-size: 24px;
+    line-height: 22px;
+  }
+  
+  .detel a {
+    background: #2d2c2ca4;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+  }
+
+  .images {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .boy {
+    display: inline-block;
+    width: 32%;
+    position: absolute;
+    margin-top: 30px;
+    left: 170px;
+    bottom: 0.8;
+    border-radius: 150px;
+    transition: 0.3s;  
+  }
+  
+  #shape {
+    width: 100%;
+    border-radius: 50px;
+  }
+  
+  .boy:hover {
+    width: 40%;
+  }
+  
+  #user-detail-intro {
+    font-size: 28px;
+  }
+  
+  #menu__toggle {
+    display: none;
+  }
 }
 
 
@@ -251,12 +430,12 @@ nav ul li a:hover {
 }
 
 .boy {
-  width: 48%;
+  width: 40%;
   position: absolute;
   top: 0;
   left: 40px;
-  margin-top: -12px;
-  border-radius: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
   transition: 0.3s;
 }
 
@@ -266,7 +445,7 @@ nav ul li a:hover {
 }
 
 .boy:hover {
-  width: 55%;
+  width: 48%;
 }
 
 #user-detail-intro {

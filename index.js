@@ -14,7 +14,7 @@ function downloadAndViewFile(fileURL) {
 //  LETTERS APPEND
 
 function append() {
-  var text = "I'm Aman Kumar";
+  var text = "I'm Aman Kumar...";
   var i = 0;
   document.getElementById("user-detail-name").innerHTML=""
   let data1 = setInterval(() => {
