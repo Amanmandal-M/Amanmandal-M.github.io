@@ -39,14 +39,14 @@ function append2() {
     }, 200);
 }
 
-append();
-append2();
+// append();
+// append2();
 
-let data = setInterval(()=>{
-    append();
-    append2();
-},8000)
+// let data = setInterval(()=>{
+//     append();
+//     append2();
+// },8000)
 
-setTimeout(() => {
-    clearInterval(data);
-}, 10000);
+// setTimeout(() => {
+//     clearInterval(data);
+// }, 20000);
