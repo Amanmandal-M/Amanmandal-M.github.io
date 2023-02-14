@@ -8,7 +8,7 @@
     <title>Portfolio</title>
 </head>
 
-<body onload="AutoRefresh(300000)">
+<body onload="AutoRefresh(240000)">
     <!--Nav Bar & Home  -->
     <div class="hero" id="home">
         <nav id="nav-menu">
@@ -21,12 +21,12 @@
                     <span></span>
                 </label>
                 <ul class="menu__box">
-                    <li ><a id="menu__item" class="nav-link home" href="#home">Home</a></li>
-                    <li><a id="menu__item" class="nav-link about" href="#">About</a></li>
-                    <li id="skills"><a id="menu__item" class="nav-link skills" href="#">Skills</a></li>
-                    <li id="projects"><a id="menu__item" class="nav-link projects" href="#">Projects</a></li>
-                    <li id="contact"><a id="menu__item" class="nav-link contact" href="#">Contact</a></li>
-                    <li id="resume"><a id="menu__item" class="nav-link resume" href="./Resume/Aman_Kumar_Resume.pdf" target="_blank" download>Resume</a></li>
+                    <li class="naving"><a id="menu__item" class="nav-link home" href="#home">Home</a></li>
+                    <li class="naving"><a id="menu__item" class="nav-link about" href="#about">About</a></li>
+                    <li class="naving"><a id="menu__item" class="nav-link skills" href="#skills">Skills</a></li>
+                    <li class="naving" id="projects"><a id="menu__item" class="nav-link projects" href="#">Projects</a></li>
+                    <li class="naving" id="contact"><a id="menu__item" class="nav-link contact" href="#">Contact</a></li>
+                    <li class="naving" id="resume"><a id="menu__item" class="nav-link resume" href="./Resume/Aman_Kumar_Resume.pdf" target="_blank" download>Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -57,6 +57,48 @@
     <!-- Skills Section -->
 
     <div id="skills">
+
+        <span class="about_bor">SKILLS</span>
+        
+        <!-- Labeling -->
+        <div id="label">
+            <div>Frontend</div>
+            <div>Backend</div>
+        </div>
+
+
+        <!-- Main Card of both boxes Front and Back -->
+
+        <div id="MainContainer">
+            <!-- Frontend Images -->
+            <div id="SmallContainer_1">
+                <div>
+                    <img src="https://sainraghuveer.github.io/static/media/html.adce51a1b31e2f045fc6.jpg" alt="HTML" width="70px" height="70px">
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <img src="https://sainraghuveer.github.io/static/media/CSS.bac713639f92eab74cc7.jpg" alt="CSS" width="70px" height="70px">
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <img src="https://sainraghuveer.github.io/static/media/JS.40de590057973b1b3b00.jpg" alt="Javascript" width="70px" height="70px">
+                    <p>Javascript</p>
+                </div>
+            </div>
+            
+            <!-- Backend Images -->
+            <div id="SmallContainer_2">
+                <div>
+                    <img src="https://sainraghuveer.github.io/static/media/nodejs.171aa0646eb609048e73.jpg" alt="NodeJS" width="70px" height="70px">
+                    <p>NodeJS</p>
+                </div>
+                <div>
+                    <img src="https://sainraghuveer.github.io/static/media/mongodb.ee6e1f04b258038b322d.jpg" alt="MongoDB" width="70px" height="70px">
+                    <p>MongoDB</p>
+                </div>
+
+            </div>
+        </div>
         
     </div>
 </body>
@@ -64,3 +106,19 @@
 </html>
 <link rel="stylesheet" href="./index.css">
 <script src="./index.js"></script>
+
+
+
+<!-- <div class="skillsContainer">
+    <div>
+        <img src="/static/media/git.f67bf83802ae8462b585.jpg" alt="Git/Github" width="70px" height="70px">
+        <p>Git/Github</p></div>
+    <div>
+        <img src="/static/media/mongodb.ee6e1f04b258038b322d.jpg" alt="MongoDB" width="70px" height="70px">
+        <p>MongoDB</p>
+    </div>
+    <div>
+        <img src="/static/media/nodejs.171aa0646eb609048e73.jpg" alt="NodeJS" width="70px" height="70px">
+        <p>NodeJS</p>
+    </div>
+</div> -->

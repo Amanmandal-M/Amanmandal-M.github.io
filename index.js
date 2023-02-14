@@ -12,13 +12,13 @@ function downloadAndViewFile(fileURL) {
 }
 
 //  LETTERS APPEND
-
+var data1;
 function append() {
   var text = "I'm Aman Kumar...";
   var i = 0;
   document.getElementById("user-detail-name").innerHTML=""
   append2();
-  let data1 = setInterval(() => {
+    data1 = setInterval(() => {
     if (text[i] == undefined) {
         return clearInterval(data1);
     }
@@ -26,14 +26,14 @@ function append() {
     i++;
   }, 200);
 }
-
+var data2;
 function append2() {
     var text = "Backend Developer";
     var i = 0;
     document.getElementById("user-detail-intro").innerHTML=""
-    let data1 = setInterval(() => {
+      data2 = setInterval(() => {
       if (text[i] == undefined) {
-        return clearInterval(data1);
+        return clearInterval(data2);
       }
       document.getElementById("user-detail-intro").innerHTML += text[i];
       i++;
@@ -44,6 +44,11 @@ append();
 setTimeout(()=>{
   append();
 },6000)
+
+setTimeout(()=>{
+   clearInterval(data1);
+   clearInterval(data2);
+},12000)
 
 
 //auto refresh
