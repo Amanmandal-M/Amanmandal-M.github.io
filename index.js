@@ -41,21 +41,13 @@ function append2() {
 }
 
 append();
-
-
-var maindata = setInterval(()=>{
-    append();
-},4000)
-
-setTimeout(() => {
-    clearInterval(maindata);
-    console.log("yes")
-}, 10000);
+setTimeout(()=>{
+  append();
+},6000)
 
 
 //auto refresh
 
 function AutoRefresh( t ) {
-  console.log("yes")
   setTimeout("location.reload(true);", t);
 }
