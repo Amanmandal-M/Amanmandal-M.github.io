@@ -17,6 +17,7 @@ function append() {
   var text = "I'm Aman Kumar...";
   var i = 0;
   document.getElementById("user-detail-name").innerHTML=""
+  append2();
   let data1 = setInterval(() => {
     if (text[i] == undefined) {
         return clearInterval(data1);
@@ -40,11 +41,10 @@ function append2() {
 }
 
 append();
-append2();
+
 
 let data = setInterval(()=>{
     append();
-    append2();
 },8000)
 
 setTimeout(() => {
