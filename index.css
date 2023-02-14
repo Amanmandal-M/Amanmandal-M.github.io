@@ -7,6 +7,9 @@
 
 /* Small Size */
 @media screen and (min-width: 100px) and (max-width: 700px) {
+  body{
+    background: #eff4fd ; 
+  }
 
   #menu__toggle {
     opacity: 0;
@@ -174,7 +177,10 @@
 
 /* Medium Size */
 @media screen and (min-width: 701px) and (max-width: 1299px){
-
+  
+  body{
+    background: #eff4fd ; 
+  }
 
   #menu__toggle {
     opacity: 0;
@@ -356,112 +362,147 @@
 /* Large Screen */
 @media screen and (min-width: 1300px) and (max-width: 3000px) {
 
-.name{
-  font-family: cursive;
-  color: #000;
-  font-size: 24px;
-}
+  body{
+   background: #eff4fd ; 
+  }
 
-.hero {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  background: #eff4fd;
-}
+  .name{
+    font-family: cursive;
+    color: #000;
+    font-size: 24px;
+  }
 
-nav {
-  display: flex;
-  width: 84%;
-  margin: auto;
-  padding: 20px 0;
-  align-items: center;
-  justify-content: space-between;
-}
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: #eff4fd;
+  }
 
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 10px 20px;
-}
+  nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-nav ul li a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-}
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
 
-nav ul li a:hover {
-  color: red;
-}
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
 
-.detel {
-  margin-left: 8%;
-  margin-top: 13%;
-}
+  nav ul li a:hover {
+    color: red;
+  }
 
-.detel h1 {
-  font-size: 50px;
-  color: #212121;
-  margin-bottom: 20px;
-}
+  .detel {
+    margin-left: 8%;
+    margin-top: 13%;
+  }
 
-.detel p {
-  color: #555;
-  line-height: 22px;
-}
+  .detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+  }
 
-.detel a {
-  background: #2d2c2ca4;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #fff;
-  display: inline-block;
-  margin: 30px 0;
-  border-radius: 5px;
-}
+  .detel p {
+    color: #555;
+    line-height: 22px;
+  }
 
-.images {
-  width: 45%;
-  height: 80%;
-  position: absolute;
-  bottom: 0;
-  right: 100px;
-}
+  .detel a {
+    background: #2d2c2ca4;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+  }
 
-.home-img {
-  width: 40%;
-  position: absolute;
-  top: 0;
-  left: 40px;
-  margin-top: 20px;
-  border-radius: 20px;
-  transition: 0.3s;
-}
+  .images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+  }
 
-#shape {
-  width: 100%;
-  border-radius: 20px;
-}
+  .home-img {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
 
-.home-img:hover {
-  width: 48%;
-}
+  #shape {
+    width: 100%;
+    border-radius: 20px;
+  }
 
-#user-detail-intro {
-  font-size: 28px;
-}
+  .home-img:hover {
+    width: 48%;
+  }
 
-#menu__toggle {
-  display: none;
-}
+  #user-detail-intro {
+    font-size: 28px;
+  }
 
-.detel>a:hover{
-  cursor: pointer;
-  width: 12%;
-  height: 24px;
-  font-size: 22px;
-}
+  #menu__toggle {
+    display: none;
+  }
+
+  .detel>a:hover{
+    cursor: pointer;
+    width: 12%;
+    height: 24px;
+    font-size: 22px;
+  }
+
+  #about{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 188px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .about_bor{
+    border: 1px solid skyblue;
+    background-color: rgb(146, 202, 224);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .texting{
+    width: 85%;
+    font-size: 21px;
+    margin: auto;
+    margin-top: 25px;
+    color: #616161;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+
+
+
 
 }
 
