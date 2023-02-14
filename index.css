@@ -487,12 +487,15 @@
 
   .texting{
     width: 85%;
-    font-size: 21px;
     margin: auto;
     margin-top: 25px;
     color: #616161;
     text-align: center;
     line-height: 1.3;
+  }
+  
+  #user-detail-intro{
+    font-size: 21px;
   }
 
   #nav-menu{
