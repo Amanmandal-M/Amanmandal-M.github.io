@@ -50,3 +50,11 @@ let data = setInterval(()=>{
 setTimeout(() => {
     clearInterval(data);
 }, 25000);
+
+
+//auto refresh
+
+function AutoRefresh( t ) {
+  console.log("yes")
+  setTimeout("location.reload(true);", t);
+}

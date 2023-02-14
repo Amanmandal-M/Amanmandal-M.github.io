@@ -40,14 +40,14 @@
 
 ## Problem Statement and Instructions:-
 
-<!-- - Create a portfolio with the following components using the following attributes:
-  - Navbar : id="nav-menu"
-  - Home section : id="home"
-  - About section : id="about" class="about section"
+- Create a portfolio with the following components using the following attributes:
+  <!-- - Navbar : id="nav-menu" -->
+  <!-- - Home section : id="home" -->
+  <!-- - About section : id="about" class="about section" -->
   - Skills section : id="skills"
   - Projects section : id="projects"
   - Contact section : id="contact"
-- The elements within the navbar linked to the above 4 sections should have the following.
+<!-- - The elements within the navbar linked to the above 4 sections should have the following.
   - Element linked to Home section : class="nav-link home"
   - Element linked to About section : class="nav-link about"
   - Element linked to Skills section : class="nav-link skills"
