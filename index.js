@@ -43,13 +43,14 @@ function append2() {
 append();
 
 
-let data = setInterval(()=>{
+var maindata = setInterval(()=>{
     append();
-},8000)
+},4000)
 
 setTimeout(() => {
-    clearInterval(data);
-}, 25000);
+    clearInterval(maindata);
+    console.log("yes")
+}, 10000);
 
 
 //auto refresh
