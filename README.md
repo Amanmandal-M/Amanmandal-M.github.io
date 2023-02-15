@@ -65,13 +65,20 @@
   - Phone number : id="contact-phone"
   - Email address : id="contact-email"
 <!-- - The image linking your professional photo must have class="home-img" -->
-- Each project card in the Projects section should have class="project-card" and the following:
+
+
+
+<!-- - Each project card in the Projects section should have class="project-card" and the following: -->
+
   - Image of the project
   - Title : class="project-title"
   - Description : class="project-description"
   - Tech stack used : class="project-tech-stack"
+
   - Link to GitHub repository : class="project-github-link"
   - Deployed link or video link : class="project-deployed-link"
+
+
 <!-- - Each skills card in the Skills section should have class="skills-card" and the following:
   - Image : class="skills-card-img"
   - Name : class="skills-card-name" -->

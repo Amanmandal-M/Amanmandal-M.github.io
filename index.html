@@ -6,14 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aman Kumar</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+
 </head>
 
-<body onload="AutoRefresh(240000)">
+<body onload="AutoRefresh(220000)">
     <!-- ===== --> 
     <div id="tops">.</div>
     <!-- ===== -->
 
-    <!--Nav Bar & Home  -->
+    <!--=============== Nav Bar & Home ===============-->
 
     <div class="hero" id="home">
         <nav id="nav-menu">
@@ -29,8 +36,8 @@
                     <li class="naving"><a id="menu__item" class="nav-link home" href="#tops">Home</a></li>
                     <li class="naving"><a id="menu__item" class="nav-link about" href="#user-detail-intro">About</a></li>
                     <li class="naving"><a id="menu__item" class="nav-link skills" href="#skillss">Skills</a></li>
-                    <li class="naving" id="projects"><a id="menu__item" class="nav-link projects" href="#">Projects</a></li>
-                    <li class="naving" id="contact"><a id="menu__item" class="nav-link contact" href="#">Contact</a></li>
+                    <li class="naving"><a id="menu__item" class="nav-link projects" href="#projecting">Projects</a></li>
+                    <li class="naving"><a id="menu__item" class="nav-link contact" href="#">Contact</a></li>
                     <li class="naving" id="resume"><a id="menu__item" class="nav-link resume" href="./Resume/Aman_Kumar_Resume.pdf" target="_blank" download>Resume</a></li>
                 </ul>
             </div>
@@ -46,7 +53,7 @@
         </div>
     </div>
 
-    <!-- About Section -->
+    <!--=============== About Section ===============-->
 
     <div id="about">
         <span class="about_bor">ABOUT ME</span>
@@ -64,7 +71,7 @@
         </div>
     </div>
 
-    <!-- Skills Section -->
+    <!--=============== Skills Section ===============-->
 
     <div id="skills">
 
@@ -125,7 +132,7 @@
             </div>
         </div>
 
-        <!-- Tools -->
+        <!--=============== Tools ===============-->
 
         <div id="tools">
             <div class="toolName">TOOLS</div>
@@ -164,18 +171,83 @@
                     <img src="https://th.bing.com/th/id/OIP.NCU8PydXbTaszgAQ2xGNHwAAAA?w=310&h=175&c=7&r=0&o=5&pid=1.7" alt="Cyclic" width="70px" height="70px" class="skills-card-img">
                     <p class="skills-card-name">Cyclic</p>
                 </div>
-                <div class="skills-card">
+                <div class="skills-card" id="projecting">
                     <img src="https://th.bing.com/th/id/OIP.leF49bHcGiMnWVeERCqGbAHaHa?pid=ImgDet&rs=1 " alt="Netlify" width="70px" height="70px" class="skills-card-img">
                     <p class="skills-card-name">Netlify</p>
                 </div>
+
+                <!--=================-->
+
+                <div class="skills-card">
+                    <img src="https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg" width="100px" height="70px" class="skills-card-img" alt="Slack">
+                    <p class="skills-card-name">Slack</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://raw.githubusercontent.com/rangav/thunder-client-support/master/images/thunder-icon.png" width="70px" height="70px" class="skills-card-img" alt="Thunder Client">
+                    <p class="skills-card-name">Thunder Client</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://user-images.githubusercontent.com/2676579/34940598-17cc20f0-f9be-11e7-8c6d-f0190d502d64.png" width="70px" height="70px" class="skills-card-img" alt="Postman">
+                    <p class="skills-card-name">Postman</p>
+                </div>
+                <div class="skills-card">
+                    <img src="https://1.bp.blogspot.com/-Ar8WR3ySYG8/WAuTyMYRNcI/AAAAAAAAO9M/PJOWp3Z8iGUly911EjMP0JjLgfi3EaiLwCLcB/s1600/REST%2BAPI.png" width="70px" height="70px" class="skills-card-img" alt="Rest API">
+                    <p class="skills-card-name">Rest API</p>
+                </div>
+
             </div>
         </div>
 
     </div>
 
     <!-- Projects-->
+    <span class="about_bor" id="pro">PROJECTS</span>
 
-    <div id="projects">
+    <div id="projects" class="project-card">   <!-- Flex -->
+        
+        <!-- Left Slider Button -->
+        <div id="leftButton">
+            <img src="https://th.bing.com/th/id/OIP.76JU5n9lv9XRx8wTJF0KdQHaGF?pid=ImgDet&w=181&h=148&c=7" alt="Left">
+        </div>
+
+        <!-- Project Section -->
+        <div id="SmallContainer1">
+            <div id="SmallContainer2">
+                <div id="Details">             <!-- Flex -->
+                    <!-- Image Section -->
+                    <div class="ImageSection">
+                        <!-- <img src="" alt="Project Image"> -->
+                    </div>
+                    <!-- Details Section -->
+                    <div class="SmallDetails"> <!-- Grid -->
+                        <div class="project-title">
+                           title
+                        </div>
+                        <div class="project-description">
+                           description
+                        </div>
+                        <div class="project-tech-stack">
+                           techstack
+                        </div>
+                    </div>
+                </div>
+                <div id="ButtonsSection">      <!-- Flex -->
+                    <a href="https://github.com/Amanmandal-M/Sephora-Clone" class="project-github-link" target="_blank">
+                        <img src="https://th.bing.com/th/id/OIP.kjCUP06WDUMR88i5wo2SqwHaHa?w=217&h=217&c=7&r=0&o=5&pid=1.7" width="50px" height="50px"  alt="Github">
+                        <p>GitHub</p>
+                    </a>
+                    <a href="https://timely-wisp-f8d982.netlify.app/" class="project-deployed-link" target="_blank">
+                        <img src="https://th.bing.com/th/id/OIP.leF49bHcGiMnWVeERCqGbAHaHa?pid=ImgDet&rs=1" width="50px" height="50px" alt="Deployed Link">
+                        <p>Deployed Link</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Next Slider Button -->
+        <div id="RightButton">
+            <img src="https://www.jing.fm/clipimg/detail/229-2299253_right-grey-arrow-clip-gray-right-arrow-icon.png" alt="Right">
+        </div>
 
     </div>
 </body>
