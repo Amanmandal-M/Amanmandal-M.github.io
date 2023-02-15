@@ -521,6 +521,7 @@
     font-family: cursive;
   }
 
+/* =======================SKILLS SECTION======================= */
   
   #skills{
     width: 70%;
@@ -592,12 +593,14 @@
     border-radius: 20px;
     opacity: 0.8;
   }
+
   .skills-card:hover{
     width: 90%;
     height: 100%;
     opacity: 1;
     transition: 0.9s;
-    border-radius: 40px;
+    border-radius: 37px;
+    font-weight: bolder;
   }
 
   .skills-card-img{
@@ -609,6 +612,7 @@
     height: 60%;
     opacity: 5;
     transition: 0.5s;
+    border-radius: 14px;
   }
 
   #SmallContainer_1 .skills-card-img:hover{
@@ -616,8 +620,35 @@
     height: 30%;
   }
 
+/*======================= Tools Section ==========================*/
 
+  #tools{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+  }
 
+  .toolName{
+    border-top: 1px dotted purple;
+    border-right: 1px dotted purple;
+    border-left: 1px dotted purple;
+    font-family: cursive;
+    font-size: 22px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+  }
+
+  #ToolContainer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-top: 40px;
+  }
 
 
 
