@@ -472,7 +472,7 @@
     width: 50%;
     height: auto;
     margin: auto;
-    margin-top: 188px;
+    margin-top: 40px;
     text-align: center;
     padding: 10px;
   }
@@ -544,13 +544,15 @@
   #labels{
     display: flex;
     justify-content: space-between;
-    width: 99%;
+    width: 96%;
     height: 100%;
     text-align: center;
     margin: auto;
-    border: 1px solid purple;
+    border-top: 1px solid purple;
+    border-right: 1px solid purple;
+    border-left: 1px solid rgb(12, 12, 12);
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   #labels>div{
@@ -566,23 +568,53 @@
     text-align: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
 
-  #SmallContainer_1{
-    border:1px solid purple;
+  #SmallContainer_1,#SmallContainer_2{
+    border-bottom:1px solid purple;
+    border-right:1px solid purple;
+    border-left:1px solid purple;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-     width: 48%;
+     width: 45%;
+     height: 300px;
+     margin: auto;
+     padding: 10px;
+     gap: 10px;
   }
-  #SmallContainer_2{
-    border:1px solid purple;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-     width: 48%;
+
+  .skills-card{
+    background-color: white;
+    width: 80%; 
+    height: 140px;
+    margin: auto;
+    border-radius: 20px;
+    opacity: 0.8;
+  }
+  .skills-card:hover{
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+    transition: 0.9s;
+    border-radius: 40px;
+  }
+
+  .skills-card-img{
+    margin-top: 10px;
+    margin-bottom: 20px;
   }  
+  .skills-card-img:hover{
+    width: 70%;
+    height: 60%;
+    opacity: 5;
+    transition: 0.5s;
+  }
 
-
-
+  #SmallContainer_1 .skills-card-img:hover{
+    width: 70%;
+    height: 30%;
+  }
 
 
 
