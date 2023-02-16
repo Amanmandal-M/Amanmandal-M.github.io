@@ -82,11 +82,10 @@ function AutoRefresh( t ) {
 let i=0;
 let data ;
 setInterval(()=>{
-    document.querySelector(".pr_img").src="";
     document.querySelector(".pr_img").src=ImgArr[i];
     i++;
     data=i;
     if(data>=13){
       i=0;
     }
-},3000)
+},4000)
