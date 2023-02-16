@@ -756,9 +756,10 @@
       grid-template-columns: repeat(1,1fr);
       gap: 30px;
     }
-      /* .project-title,.project-description
+      .project-title,.project-description
       ,.project-tech-stack{
-      } */
+        border-bottom: 2px dotted rgb(159, 155, 159);
+      }
 
       .sephora{
         color:rgb(52, 58, 64);
