@@ -4,11 +4,10 @@
   font-family: sans-serif;
 }
 
-
 /* Small Size */
-@media screen and (min-width:0px) and (max-width: 700px) {
-  body{
-    background: #eff4fd ; 
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  body {
+    background: #eff4fd;
   }
 
   #menu__toggle {
@@ -83,14 +82,13 @@
     background-color: #cfd8dc;
   }
 
-/* -------------------------------------- */
+  /* -------------------------------------- */
 
-  .name{
+  .name {
     font-family: cursive;
     color: #000;
     font-size: 24px;
   }
-
 
   .hero {
     position: relative;
@@ -98,7 +96,7 @@
     height: 100vh;
     background: #eff4fd;
   }
-  
+
   nav {
     display: flex;
     width: 84%;
@@ -107,35 +105,35 @@
     align-items: center;
     justify-content: flex-end;
   }
-  
+
   nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
   }
-  
+
   nav ul li a:hover {
     color: red;
     cursor: pointer;
   }
-  
+
   .detel {
     margin-left: 8%;
     margin-top: 13%;
   }
-  
+
   .detel h1 {
     font-size: 50px;
     color: #212121;
     margin-bottom: 20px;
   }
-  
+
   .detel p {
     color: #555;
     font-size: 24px;
     line-height: 22px;
   }
-  
+
   .detel a {
     background: #2d2c2ca4;
     padding: 10px 10px;
@@ -147,10 +145,9 @@
     border-radius: 5px;
   }
 
-  #shape{
+  #shape {
     display: none;
   }
-
 
   .images {
     width: 50%;
@@ -162,9 +159,7 @@
     margin-top: 30px;
   }
 
-
-
-  .home-img{
+  .home-img {
     border: 2px solid gray;
     margin: auto;
     width: 100%;
@@ -175,9 +170,8 @@
 
 /* Medium Size */
 @media screen and (min-width: 701px) and (max-width: 1299px) {
-  
-  body{
-    background: #eff4fd ; 
+  body {
+    background: #eff4fd;
   }
 
   #menu__toggle {
@@ -252,14 +246,13 @@
     background-color: #cfd8dc;
   }
 
-/* -------------------------------------- */
+  /* -------------------------------------- */
 
-  .name{
+  .name {
     font-family: cursive;
     color: #000;
     font-size: 24px;
   }
-
 
   .hero {
     position: relative;
@@ -267,7 +260,7 @@
     height: 100vh;
     background: #eff4fd;
   }
-  
+
   nav {
     display: flex;
     width: 84%;
@@ -276,18 +269,18 @@
     align-items: center;
     justify-content: flex-end;
   }
-  
+
   nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
   }
-  
+
   nav ul li a:hover {
     color: red;
     cursor: pointer;
   }
-  
+
   .detel {
     width: 80%;
     margin: auto;
@@ -295,19 +288,19 @@
     padding-top: 10px;
     text-align: center;
   }
-  
+
   .detel h1 {
     font-size: 50px;
     color: #212121;
     margin-bottom: 20px;
   }
-  
+
   .detel p {
     color: #555;
     font-size: 24px;
     line-height: 22px;
   }
-  
+
   .detel a {
     background: #2d2c2ca4;
     padding: 10px 10px;
@@ -325,7 +318,7 @@
     margin: auto;
     margin-top: 50px;
   }
-  
+
   .home-img {
     display: inline-block;
     width: 32%;
@@ -334,36 +327,391 @@
     left: 170px;
     bottom: 0.8;
     border-radius: 150px;
-    transition: 0.3s;  
+    transition: 0.3s;
   }
-  
+
   #shape {
     width: 100%;
     border-radius: 50px;
   }
-  
+
   .home-img:hover {
     width: 40%;
   }
-  
+
   #user-detail-intro {
     font-size: 28px;
   }
-  
+
   #menu__toggle {
     display: none;
   }
-}
 
+  .detel > a:hover {
+    cursor: pointer;
+    width: 12%;
+    height: 24px;
+    font-size: 22px;
+  }
+
+  #about {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .about_bor {
+    border: 1px solid skyblue;
+    background-color: rgb(146, 202, 224);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .texting {
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    color: #616161;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  #user-detail-intro {
+    font-size: 21px;
+  }
+
+  #nav-menu {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    margin: auto;
+    background-color: #eff4fd;
+  }
+
+  .naving {
+    font-size: 16px;
+  }
+
+  #menu__item:hover {
+    transition: 0.7s;
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    width: 20%;
+    color: #212121;
+    font-family: cursive;
+  }
+
+  #resume-link-1 {
+    background: #2d2c2ca4;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 5px;
+  }
+
+  #resume-link-1:hover {
+    transition: 0.7s;
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    width: 30%;
+    height: 100%;
+    color: #212121;
+    font-family: cursive;
+  }
+
+  /* ==================SKILLS SECTION ================== */
+
+  #skills {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .about_bors {
+    border: 1px solid skyblue;
+    background-color: rgb(146, 202, 224);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+  }
+
+  #labels {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    border-top: 2px dotted purple;
+    border-right: 2px dotted purple;
+    border-left: 2px dotted rgb(12, 12, 12);
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  #labels > div {
+    font-family: cursive;
+    width: 50%;
+  }
+
+  #MainContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  #SmallContainer_1,
+  #SmallContainer_2 {
+    border-bottom: 2px dotted purple;
+    border-right: 2px dotted purple;
+    border-left: 2px dotted purple;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .skills-card {
+    background-color: white;
+    width: 80%;
+    height: 140px;
+    margin: auto;
+    border-radius: 20px;
+    opacity: 0.8;
+  }
+
+  .skills-card:hover {
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+    transition: 0.9s;
+    border-radius: 37px;
+    font-weight: bolder;
+  }
+
+  .skills-card-img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .skills-card-img:hover {
+    width: 70%;
+    height: 60%;
+    opacity: 5;
+    transition: 0.5s;
+    border-radius: 14px;
+  }
+
+  #SmallContainer_1 .skills-card-img:hover {
+    width: 70%;
+    height: 30%;
+  }
+
+  /*======================= Tools Section ==========================*/
+
+  #tools {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .toolName {
+    border-top: 2px dotted purple;
+    border-right: 2px dotted purple;
+    border-left: 2px dotted purple;
+    font-family: cursive;
+    font-size: 22px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+  }
+
+  #ToolContainer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  /*======================= Project Section ==========================*/
+
+  #pro {
+    border: 1px solid skyblue;
+    background-color: rgb(146, 202, 224);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    margin-top: 60px;
+  }
+
+  #projects {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+  }
+
+  /* Left Slider Button */
+  #leftButton {
+    width: 5%;
+    height: 50px;
+    margin: auto;
+  }
+  #leftButton > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  #leftButton > img:hover {
+    cursor: pointer;
+    width: 120%;
+    height: 120%;
+    transition: 0.5s;
+  }
+
+  /* Project Section */
+  #SmallContainer1 {
+    width: 87%;
+    height: auto;
+    margin: auto;
+  }
+  #SmallContainer2 {
+    width: 100%;
+    height: 100%;
+  }
+  #Details {
+    width: 100%;
+    height: 70%;
+    display: flex;
+  }
+
+  /*  Image Section  */
+  .ImageSection {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+  }
+  .pr_img {
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .ImageSection:hover {
+    width: 120%;
+    height: 120%;
+    transition: 0.8s ease-in-out;
+  }
+
+  /* Details Section */
+  .SmallDetails {
+    width: 45%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .project-title,
+  .project-description,
+  .project-tech-stack {
+    border-bottom: 2px dotted rgb(159, 155, 159);
+  }
+
+  .sephora {
+    color: rgb(52, 58, 64);
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #ButtonsSection {
+    margin-top: 20px;
+    width: 100%;
+    height: 29%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .project-github-link,
+  .project-deployed-link {
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+  }
+  .project-github-link:hover,
+  .project-deployed-link:hover {
+    width: 18%;
+    height: 110%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  /* Next Slider Button */
+  #RightButton {
+    width: 5%;
+    height: 50px;
+    margin: auto;
+  }
+  #RightButton > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  #RightButton > img:hover {
+    cursor: pointer;
+    width: 120%;
+    height: 120%;
+    transition: 0.5s;
+  }
+}
 
 /* Large Screen */
 @media screen and (min-width: 1300px) and (max-width: 5000px) {
-
-  body{
-   background: #eff4fd ; 
+  body {
+    background: #eff4fd;
   }
 
-  .name{
+  .name {
     font-family: cursive;
     color: #000;
     font-size: 24px;
@@ -458,14 +806,14 @@
     display: none;
   }
 
-  .detel>a:hover{
+  .detel > a:hover {
     cursor: pointer;
     width: 12%;
     height: 24px;
     font-size: 22px;
   }
 
-  #about{
+  #about {
     width: 50%;
     height: auto;
     margin: auto;
@@ -474,7 +822,7 @@
     padding: 10px;
   }
 
-  .about_bor{
+  .about_bor {
     border: 1px solid skyblue;
     background-color: rgb(146, 202, 224);
     padding: 10px;
@@ -482,7 +830,7 @@
     padding-right: 100px;
   }
 
-  .texting{
+  .texting {
     width: 85%;
     margin: auto;
     margin-top: 25px;
@@ -490,12 +838,12 @@
     text-align: center;
     line-height: 1.3;
   }
-  
-  #user-detail-intro{
+
+  #user-detail-intro {
     font-size: 21px;
   }
 
-  #nav-menu{
+  #nav-menu {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -504,11 +852,11 @@
     background-color: #eff4fd;
   }
 
-  .naving{
+  .naving {
     font-size: 16px;
   }
 
-  #menu__item:hover{
+  #menu__item:hover {
     transition: 0.7s;
     font-size: 23px;
     padding-bottom: 10px;
@@ -518,7 +866,7 @@
     font-family: cursive;
   }
 
-  #resume-link-1{
+  #resume-link-1 {
     background: #2d2c2ca4;
     padding: 10px 10px;
     text-decoration: none;
@@ -529,7 +877,7 @@
     border-radius: 5px;
   }
 
-  #resume-link-1:hover{
+  #resume-link-1:hover {
     transition: 0.7s;
     font-size: 23px;
     padding-bottom: 10px;
@@ -540,19 +888,19 @@
     font-family: cursive;
   }
 
-/* ==================SKILLS SECTION ================== */
-  
-  #skills{
+  /* ==================SKILLS SECTION ================== */
+
+  #skills {
     width: 70%;
     height: auto;
     margin: auto;
     margin-top: 50px;
   }
 
-  .about_bors{
+  .about_bors {
     border: 1px solid skyblue;
     background-color: rgb(146, 202, 224);
-    padding: 10px;    
+    padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
     display: block;
@@ -561,7 +909,7 @@
     width: 10%;
   }
 
-  #labels{
+  #labels {
     display: flex;
     justify-content: space-between;
     width: 96%;
@@ -575,12 +923,12 @@
     margin-top: 30px;
   }
 
-  #labels>div{
+  #labels > div {
     font-family: cursive;
     width: 50%;
   }
 
-  #MainContainer{
+  #MainContainer {
     display: flex;
     justify-content: space-between;
     width: 99%;
@@ -591,29 +939,30 @@
     margin-bottom: 10px;
   }
 
-  #SmallContainer_1,#SmallContainer_2{
-    border-bottom:2px dotted purple;
-    border-right:2px dotted purple;
-    border-left:2px dotted purple;
+  #SmallContainer_1,
+  #SmallContainer_2 {
+    border-bottom: 2px dotted purple;
+    border-right: 2px dotted purple;
+    border-left: 2px dotted purple;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-     width: 45%;
-     height: 300px;
-     margin: auto;
-     padding: 10px;
-     gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    gap: 10px;
   }
 
-  .skills-card{
+  .skills-card {
     background-color: white;
-    width: 80%; 
+    width: 80%;
     height: 140px;
     margin: auto;
     border-radius: 20px;
     opacity: 0.8;
   }
 
-  .skills-card:hover{
+  .skills-card:hover {
     width: 90%;
     height: 100%;
     opacity: 1;
@@ -622,11 +971,11 @@
     font-weight: bolder;
   }
 
-  .skills-card-img{
+  .skills-card-img {
     margin-top: 10px;
     margin-bottom: 20px;
-  }  
-  .skills-card-img:hover{
+  }
+  .skills-card-img:hover {
     width: 70%;
     height: 60%;
     opacity: 5;
@@ -634,21 +983,21 @@
     border-radius: 14px;
   }
 
-  #SmallContainer_1 .skills-card-img:hover{
+  #SmallContainer_1 .skills-card-img:hover {
     width: 70%;
     height: 30%;
   }
 
-/*======================= Tools Section ==========================*/
+  /*======================= Tools Section ==========================*/
 
-  #tools{
+  #tools {
     width: 90%;
     margin: auto;
     text-align: center;
     margin-top: 40px;
   }
 
-  .toolName{
+  .toolName {
     border-top: 2px dotted purple;
     border-right: 2px dotted purple;
     border-left: 2px dotted purple;
@@ -664,117 +1013,116 @@
     width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin-top: 40px;
   }
 
-/*======================= Project Section ==========================*/
+  /*======================= Project Section ==========================*/
 
-#pro{
-  border: 1px solid skyblue;
-  background-color: rgb(146, 202, 224);
-  padding: 10px;    
-  padding-left: 100px;
-  padding-right: 100px;
-  display: block;
-  margin: auto;
-  text-align: center;
-  width: 10%;
-  margin-top: 60px;
-}
+  #pro {
+    border: 1px solid skyblue;
+    background-color: rgb(146, 202, 224);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    margin-top: 60px;
+  }
 
-
-#projects{
+  #projects {
     width: 95%;
     height: auto;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 100px;
     display: flex;
-}
+  }
 
-/* Left Slider Button */
-#leftButton{
-  width: 5%;
-  height: 50px;
-  margin: auto;
-}
-#leftButton>img{
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  transition: 0.5s;
-}
-#leftButton>img:hover{
-  cursor: pointer;
-  width: 120%;
-  height: 120%;
-  transition: 0.5s;
-}
+  /* Left Slider Button */
+  #leftButton {
+    width: 5%;
+    height: 50px;
+    margin: auto;
+  }
+  #leftButton > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  #leftButton > img:hover {
+    cursor: pointer;
+    width: 120%;
+    height: 120%;
+    transition: 0.5s;
+  }
 
+  /* Project Section */
+  #SmallContainer1 {
+    width: 87%;
+    height: auto;
+    margin: auto;
+  }
+  #SmallContainer2 {
+    width: 100%;
+    height: 100%;
+  }
+  #Details {
+    width: 100%;
+    height: 70%;
+    display: flex;
+  }
 
+  /*  Image Section  */
+  .ImageSection {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+  }
+  .pr_img {
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .ImageSection:hover {
+    width: 120%;
+    height: 120%;
+    transition: 0.8s ease-in-out;
+  }
 
-/* Project Section */
-#SmallContainer1{
-  width: 87%;
-  height: auto;
-  margin: auto;
-}
-#SmallContainer2{
-  width: 100%;
-  height: 100%;
-}
-#Details{
-  width:100%;
-  height: 70%;
-  display: flex;
-}
+  /* Details Section */
+  .SmallDetails {
+    width: 45%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .project-title,
+  .project-description,
+  .project-tech-stack {
+    border-bottom: 2px dotted rgb(159, 155, 159);
+  }
 
-    /*  Image Section  */
-    .ImageSection{
-      width: 60%;
-      height: 90%;
-      margin: auto;
-    }
-      .pr_img{
-        width: 90%;
-        height: 100%;
-        border-radius: 20px;
-      }
-      .ImageSection:hover{
-        width: 120%;
-        height: 120%;
-        transition: 0.8s ease-in-out;
-      }
+  .sephora {
+    color: rgb(52, 58, 64);
+    font-size: 20px;
+    font-weight: 700;
+  }
 
-    /* Details Section */
-    .SmallDetails{
-      width: 45%;
-      height: 100%;
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-      gap: 30px;
-    }
-      .project-title,.project-description
-      ,.project-tech-stack{
-        border-bottom: 2px dotted rgb(159, 155, 159);
-      }
-
-      .sephora{
-        color:rgb(52, 58, 64);
-        font-size: 20px;
-        font-weight: 700;
-      }
-
-#ButtonsSection{
-  margin-top: 20px;
-  width:100%;
-  height: 29%;
-  display: flex;
-  justify-content: flex-end;  
-}
-  .project-github-link,.project-deployed-link{
+  #ButtonsSection {
+    margin-top: 20px;
+    width: 100%;
+    height: 29%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .project-github-link,
+  .project-deployed-link {
     border: 1px solid skyblue;
     border-radius: 20px;
     width: 15%;
@@ -787,7 +1135,8 @@
     color: #000;
     margin-right: 10px;
   }
-  .project-github-link:hover,.project-deployed-link:hover{
+  .project-github-link:hover,
+  .project-deployed-link:hover {
     width: 18%;
     height: 110%;
     background-color: whitesmoke;
@@ -796,32 +1145,21 @@
     transition: 0.5s;
   }
 
-/* Next Slider Button */
-#RightButton{
-  width: 5%;
-  height: 50px;
-  margin: auto;
+  /* Next Slider Button */
+  #RightButton {
+    width: 5%;
+    height: 50px;
+    margin: auto;
+  }
+  #RightButton > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  #RightButton > img:hover {
+    cursor: pointer;
+    width: 120%;
+    height: 120%;
+    transition: 0.5s;
+  }
 }
-#RightButton>img{
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-}
-#RightButton>img:hover{
-  cursor: pointer;
-  width: 120%;
-  height: 120%;
-  transition: 0.5s;
-}
-
-
-
-
-
-
-
-
-
-}
-
-
