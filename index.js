@@ -59,3 +59,34 @@ function AutoRefresh( t ) {
 
 
 // ================== PROJECT SECTION =================
+
+
+  var ImageChange = document.getElementsByClassName(".ImageSection").innerHTML;
+
+  let ImgArr = [
+    "./Images/C1.png",
+    "./Images/C2.png",
+    "./Images/C3.png",
+    "./Images/C4.png",
+    "./Images/C5.png",
+    "./Images/C6.png",
+    "./Images/C7.png",
+    "./Images/C8.png",
+    "./Images/C9.png",
+    "./Images/C10.png",
+    "./Images/C11.png",
+    "./Images/C12.png",
+    "./Images/C13.png",
+  ]
+
+let i=0;
+let data ;
+setInterval(()=>{
+    document.querySelector(".pr_img").src="";
+    document.querySelector(".pr_img").src=ImgArr[i];
+    i++;
+    data=i;
+    if(data>=13){
+      i=0;
+    }
+},3000)

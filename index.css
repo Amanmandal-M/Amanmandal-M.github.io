@@ -718,10 +718,18 @@
     /*  Image Section  */
     .ImageSection{
       border: 1px solid red;
-      width: 50%;
-      height: 80%;
+      width: 60%;
+      height: 90%;
       margin: auto;
     }
+      .pr_img{
+        width: 100%;
+        height: 100%;
+      }
+      .ImageSection:hover{
+        width: 100%;
+        height: 100%;
+      }
 
     /* Details Section */
     .SmallDetails{
