@@ -521,6 +521,28 @@
     font-family: cursive;
   }
 
+  #resume-link-1{
+    background: #2d2c2ca4;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 5px;
+  }
+
+  #resume-link-1:hover{
+    transition: 0.7s;
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    width: 30%;
+    height: 100%;
+    color: #212121;
+    font-family: cursive;
+  }
+
 /* ==================SKILLS SECTION ================== */
   
   #skills{
