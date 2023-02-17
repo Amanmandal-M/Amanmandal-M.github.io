@@ -149,7 +149,7 @@ function ImageSlider3() {
   }, 4000);
 }
 
-//  ======================= Globally Images Changes =========================
+//  ======================= Globally Image Changes =========================
 
 let i=0;
 
@@ -535,4 +535,3 @@ LeftBtn.addEventListener("click", (e) => {
 
   
 });
-

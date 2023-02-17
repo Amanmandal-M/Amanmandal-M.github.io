@@ -358,7 +358,7 @@
     width: 50%;
     height: auto;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 210px;
     text-align: center;
     padding: 10px;
   }
@@ -1061,11 +1061,14 @@
     transition: 0.5s;
   }
 
-  /* Project Section */
+  /* ============= Project Section ============= */
   #SmallContainer1 {
     width: 87%;
     height: auto;
     margin: auto;
+    box-shadow: rgba(219, 9, 9, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 10px;
   }
   #SmallContainer2 {
     width: 100%;
@@ -1077,7 +1080,7 @@
     display: flex;
   }
 
-  /*  Image Section  */
+  /*============= Image Section =============*/
   .ImageSection {
     width: 60%;
     height: 90%;
@@ -1094,7 +1097,8 @@
     transition: 0.8s ease-in-out;
   }
 
-  /* Details Section */
+  /*============= Details Section =============*/
+
   .SmallDetails {
     width: 45%;
     height: 100%;
@@ -1161,5 +1165,56 @@
     width: 120%;
     height: 120%;
     transition: 0.5s;
+  }
+
+  /* GIT HUB  */
+
+  .githead {
+    text-align: center;
+    border-right: 2px dotted purple;
+    border-left: 2px dotted purple;
+    border-top: 2px dotted purple;
+    padding-bottom: 5px;
+    width: 92%;
+    margin: auto;
+    font-family: cursive;
+    padding-top: 10px;
+  }
+
+  #GitHubCalender {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 92%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+  }
+
+  .StatsImg {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+  }
+
+  #githeads {
+    margin-top: 30px;
+  }
+
+  #github-stats-card {
+    width: 60%;
+  }
+
+  #github-top-langs {
+    height: 300px;
+  }
+
+  .commit{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 90%;
   }
 }
