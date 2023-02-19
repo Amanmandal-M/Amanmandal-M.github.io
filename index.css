@@ -1232,12 +1232,24 @@
   #contacts{
      border: 1px solid red;
      width: 92%;
-     height: 300px;
+     height: 400px;
      margin: auto;
      margin-top: 20px;
+     margin-bottom: 40px;
+     display: flex;
+     justify-content: space-between;
   }
 
-  
+  .SmallContact1{
+    border: 1px solid green;
+    width: 30%;    
+  }
+
+  .SmallContact2{
+    border: 1px solid green;
+    width: 57%;
+  }
+
 
 
 
