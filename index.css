@@ -709,6 +709,7 @@
 @media screen and (min-width: 1300px) and (max-width: 5000px) {
   body {
     background: #eff4fd;
+    scroll-behavior: smooth;
   }
 
   .name {
@@ -1242,15 +1243,29 @@
 
   .SmallContact1{
     border: 1px solid green;
-    width: 30%;    
+    width: 35%;   
   }
 
   .SmallContact2{
     border: 1px solid green;
-    width: 57%;
+    width: 55%;
   }
 
+  /* .ContactNameTitle{
+    display: inline;
+  } */
 
+  .SmallAnc{
+    text-decoration: none;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+  }
 
 
 
