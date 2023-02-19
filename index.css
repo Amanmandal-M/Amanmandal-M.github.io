@@ -1191,7 +1191,6 @@
     padding-bottom: 20px;
     border-radius: 20px;
   }
-
   .StatsImg {
     display: block;
     margin: auto;
@@ -1217,4 +1216,48 @@
     width: 80%;
     height: 90%;
   }
+
+
+  /* ============= Contact Section ============= */
+
+  #contact{
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    margin-top: 20px;
+  }
+
+  #contacts{
+     border: 1px solid red;
+     width: 92%;
+     height: 300px;
+     margin: auto;
+     margin-top: 20px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ========== Global Changes in Main Heading ========== */
+  span{
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  /* ========== ==============================  ========== */
+
 }

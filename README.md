@@ -46,7 +46,7 @@
   <!-- - About section : id="about" class="about section" -->
   <!-- - Skills section : id="skills" -->
   <!-- - Projects section : id="projects" -->
-  - Contact section : id="contact"
+  <!-- - Contact section : id="contact" -->
 <!-- - The elements within the navbar linked to the above 4 sections should have the following.
   - Element linked to Home section : class="nav-link home"
   - Element linked to About section : class="nav-link about"
@@ -56,7 +56,7 @@
   - Element linked to Resume : class="nav-link resume" -->
 
   
-- The following must be present within elements with the respective IDs:
+<!-- - The following must be present within elements with the respective IDs: -->
   <!-- - Name : id="user-detail-name" -->
   <!-- - Formal introduction : id="user-detail-intro" -->
 - Contact elements must have the following IDs:
@@ -70,13 +70,13 @@
 
 <!-- - Each project card in the Projects section should have class="project-card" and the following: -->
 
-  - Image of the project
+  <!-- - Image of the project
   - Title : class="project-title"
   - Description : class="project-description"
-  - Tech stack used : class="project-tech-stack"
+  - Tech stack used : class="project-tech-stack" -->
 
-  - Link to GitHub repository : class="project-github-link"
-  - Deployed link or video link : class="project-deployed-link"
+  <!-- - Link to GitHub repository : class="project-github-link"
+  - Deployed link or video link : class="project-deployed-link" -->
 
 
 <!-- - Each skills card in the Skills section should have class="skills-card" and the following:
