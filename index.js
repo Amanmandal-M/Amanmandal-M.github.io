@@ -317,7 +317,7 @@ RightBtn.addEventListener("click", (e) => {
              <img src="https://th.bing.com/th/id/OIP.leF49bHcGiMnWVeERCqGbAHaHa?pid=ImgDet&rs=1" width="40px" height="40px" alt="Deployed Link">
              <p>Deployed Link</p>
          </a>
-         <a href="https://drive.google.com/file/d/1MbQ0iA8Bz7PPCgKOjGvBg8skjxciryZT/view" class="project-deployed-link" target="_blank">
+         <a href="https://drive.google.com/file/d/1qPziEyuUgVjih2R1leX86D3oPxgHViEc/view" class="project-deployed-link" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/3049/3049365.png" width="40px" height="40px" alt="Deployed Link">
             <p>Live Video</p>
          </a>
