@@ -88,6 +88,7 @@
 - If you're using anchor elements for the resume buttons, they must have the following IDs:
   <!-- - For the button in the Resume section : id="resume-link-1" -->
   - For the button in the Home/About section : id="resume-link-2"
+  
 - For the GitHub calendar: class="react-activity-calendar" (the class is automatically included if you're using the react-github-calendar npm package)
 - The GitHub statistics images must have the following IDs:
 
