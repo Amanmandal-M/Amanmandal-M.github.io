@@ -710,6 +710,7 @@
   body {
     background: #eff4fd;
     scroll-behavior: smooth;
+    overflow-y: scroll;
   }
 
   .name {
@@ -1216,6 +1217,21 @@
     margin: auto;
     width: 80%;
     height: 90%;
+  }
+
+  #git{
+    width: 92%;
+    height: 100%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid red;
+  }
+
+  #git>div>div{
+    border: 1px solid green;
+    padding: 0px;
   }
 
 
