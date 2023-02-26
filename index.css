@@ -1226,12 +1226,6 @@
     font-size: 18px;
     margin-top: 30px;
     text-align: center;
-    border: 1px solid red;
-  }
-
-  #git>div>div{
-    border: 1px solid green;
-    padding: 0px;
   }
 
 
