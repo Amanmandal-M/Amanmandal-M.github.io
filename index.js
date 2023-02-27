@@ -554,7 +554,7 @@ ViewButton2.addEventListener("click", () => {
   MainAnchor2.innerHTML = `
   <div>Email</div>
   <img src="https://th.bing.com/th/id/R.3a5a64ffc3965f939226962d056e9fd6?rik=6tgagpS2WlYs9w&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2010%2f01%2fsimple-email-icon-vector-free_129913.png&ehk=b2UTfuLjT4nCGQqvfjAp4xkbdYmkzPt5NNHcOSd%2fF%2fM%3d&risl=&pid=ImgRaw&r=0" width="40px" height="40px" alt="Github">
-  <a href="amanmandal644@gmail.com" rel="noreferrer" target="_blank" id="contact-email" font-size: 15px;>amanmandal644@gmail.com</a>
+  <a href="mailto:amanmandal644@gmail.com" rel="noreferrer" target="_blank" id="contact-email" font-size: 15px;>amanmandal644@gmail.com</a>
   `;
 });
 
