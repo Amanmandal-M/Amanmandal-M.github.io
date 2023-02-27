@@ -58,11 +58,10 @@ function AutoRefresh(t) {
 
 // ================== PROJECT SECTION =================
 
-
 // ================== Image Slider =================
 
 // C1-C14
-var d1 ;
+var d1;
 function ImageSlider1() {
   let ImgArr = [
     "./Images/C1.png",
@@ -134,7 +133,7 @@ function ImageSlider3() {
     "./Images/E8.png",
     "./Images/E9.png",
     "./Images/E10.png",
-    "./Images/E11.png"
+    "./Images/E11.png",
   ];
 
   let i = 0;
@@ -151,22 +150,21 @@ function ImageSlider3() {
 
 //  ======================= Globally Image Changes =========================
 
-let i=0;
+let i = 0;
 
-if(i==0){
-  clearInterval(d1)
-  clearInterval(d3)
-  ImageSlider1()
-}else if(i==1){
-  clearInterval(d1)
-  clearInterval(d2)
-  ImageSlider2()
-}else{
-  clearInterval(d2)
-  clearInterval(d3)
-  ImageSlider3()
+if (i == 0) {
+  clearInterval(d1);
+  clearInterval(d3);
+  ImageSlider1();
+} else if (i == 1) {
+  clearInterval(d1);
+  clearInterval(d2);
+  ImageSlider2();
+} else {
+  clearInterval(d2);
+  clearInterval(d3);
+  ImageSlider3();
 }
-
 
 // ======================= Right click =========================
 
@@ -327,34 +325,30 @@ RightBtn.addEventListener("click", (e) => {
   document.querySelector("#SmallContainer1").innerHTML = "";
   document.querySelector("#SmallContainer1").innerHTML = DivArr[i];
 
-  if(i==0){
-    clearInterval(d1)
-    clearInterval(d3)
-    ImageSlider2()
-  }else if(i==1){
-    clearInterval(d1)
-    clearInterval(d2)
-    ImageSlider3()
-  }else{
-    clearInterval(d2)
-    clearInterval(d3)
-    ImageSlider1()
+  if (i == 0) {
+    clearInterval(d1);
+    clearInterval(d3);
+    ImageSlider2();
+  } else if (i == 1) {
+    clearInterval(d1);
+    clearInterval(d2);
+    ImageSlider3();
+  } else {
+    clearInterval(d2);
+    clearInterval(d3);
+    ImageSlider1();
   }
 
   i++;
 
-  if(i>2){
-    i=0;
+  if (i > 2) {
+    i = 0;
   }
-
-  
 });
-
-
 
 // // ======================= Left click =========================
 
-let j=i;
+let j = i;
 
 let LeftBtn = document.querySelector("#leftButton");
 
@@ -508,30 +502,101 @@ LeftBtn.addEventListener("click", (e) => {
             <p>Live Video</p>
          </a>
      </div>
-      </div>`
+      </div>`,
   ];
   document.querySelector("#SmallContainer1").innerHTML = "";
   document.querySelector("#SmallContainer1").innerHTML = DivArr[j];
 
-  if(j==0){
-    clearInterval(d1)
-    clearInterval(d3)
-    ImageSlider2()
-  }else if(j==1){
-    clearInterval(d1)
-    clearInterval(d2)
-    ImageSlider3()
-  }else{
-    clearInterval(d2)
-    clearInterval(d3)
-    ImageSlider1()
+  if (j == 0) {
+    clearInterval(d1);
+    clearInterval(d3);
+    ImageSlider2();
+  } else if (j == 1) {
+    clearInterval(d1);
+    clearInterval(d2);
+    ImageSlider3();
+  } else {
+    clearInterval(d2);
+    clearInterval(d3);
+    ImageSlider1();
   }
 
   j++;
 
-  if(j<0 || j>2){
-    j=i;
+  if (j < 0 || j > 2) {
+    j = i;
   }
+});
 
-  
+// ============= Contact Section =============
+
+// =========== PHONE =============
+
+let ViewButton = document.querySelector("#ViewBtn");
+let MainAnchor = document.querySelector(".SmallAnc");
+
+ViewButton.addEventListener("click", () => {
+  MainAnchor.innerHTML = "";
+  MainAnchor.innerHTML = `
+  <div>Phone</div>
+  <img src="https://dejpknyizje2n.cloudfront.net/svgcustom/clipart/preview/telephone-2572-13835-300x300.png" width="40px" height="40px" alt="Github">
+  <a href="tel:+91-7004565094" rel="noreferrer" target="_blank" id="contact-phone" font-size: 15px;">+91-7004565094</a>
+  `;
+});
+
+// =========== EMAIL =============
+
+let ViewButton2 = document.querySelector("#ViewBtn2");
+let MainAnchor2 = document.querySelector("#SmallAnc2");
+
+ViewButton2.addEventListener("click", () => {
+  MainAnchor2.innerHTML = "";
+  MainAnchor2.innerHTML = `
+  <div>Email</div>
+  <img src="https://th.bing.com/th/id/R.3a5a64ffc3965f939226962d056e9fd6?rik=6tgagpS2WlYs9w&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2010%2f01%2fsimple-email-icon-vector-free_129913.png&ehk=b2UTfuLjT4nCGQqvfjAp4xkbdYmkzPt5NNHcOSd%2fF%2fM%3d&risl=&pid=ImgRaw&r=0" width="40px" height="40px" alt="Github">
+  <a href="amanmandal644@gmail.com" rel="noreferrer" target="_blank" id="contact-email" font-size: 15px;>amanmandal644@gmail.com</a>
+  `;
+});
+
+// =========== GITHUB =============
+
+let ViewButton3 = document.querySelector("#ViewBtn3");
+let MainAnchor3 = document.querySelector("#SmallAnc3");
+
+ViewButton3.addEventListener("click", () => {
+  MainAnchor3.innerHTML = "";
+  MainAnchor3.innerHTML = `
+  <div>Github</div>
+  <img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png" width="40px" height="40px" alt="Github">
+  <a href="https://github.com/Amanmandal-M" target="_blank" id="contact-github" font-size: 15px;>Amanmandal-M</a>
+  `;
+});
+
+// =========== LINKEDIN =============
+
+let ViewButton4 = document.querySelector("#ViewBtn4");
+let MainAnchor4 = document.querySelector("#SmallAnc4");
+
+ViewButton4.addEventListener("click", () => {
+  MainAnchor4.innerHTML = "";
+  MainAnchor4.innerHTML = `
+  <div>LinkedIn</div>
+  <img src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png" width="40px" height="40px" alt="Github">
+  <a href="https://www.linkedin.com/in/aman-kumar-657080101/" target="_blank" id="contact-linkedin" font-size: 15px;>Aman Kumar</a>
+  `;
+});
+
+
+// =========== LOCATION =============
+
+let ViewButton5 = document.querySelector("#ViewBtn5");
+let MainAnchor5 = document.querySelector("#SmallAnc5");
+
+ViewButton5.addEventListener("click", () => {
+  MainAnchor5.innerHTML = "";
+  MainAnchor5.innerHTML = `
+  <div>LinkedIn</div>
+  <a href="https://www.google.co.in/maps/place/23.746890,86.156104/@23.7475956,86.1572614,17.89z/data=!4m6!3m5!1s0x39f418c23ffdbfa9:0x7ebdbf3c5aeac30f!7e2!8m2!3d23.7468887!4d86.1561048" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/000/437/977/original/vector-location-icon.jpg" width="40px" height="40px" alt="Github"></a>
+  <a href="https://www.google.co.in/maps/place/23.746890,86.156104/@23.7475956,86.1572614,17.89z/data=!4m6!3m5!1s0x39f418c23ffdbfa9:0x7ebdbf3c5aeac30f!7e2!8m2!3d23.7468887!4d86.1561048" target="_blank" id="contact-location" font-size: 15px;>View Location</a>
+  `;
 });

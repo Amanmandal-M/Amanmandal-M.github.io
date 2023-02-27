@@ -332,13 +332,56 @@
 
     <div id="contacts">
         <div class="SmallContact1">
-            <a href="https://github.com/Amanmandal-M/Sephora-Clone" class="SmallAnc" target="_blank">
+
+            <!-- PHONE  -->
+
+            <a href="#contact"  class="SmallAnc" >
                 <div>Phone</div>
                 <img src="https://dejpknyizje2n.cloudfront.net/svgcustom/clipart/preview/telephone-2572-13835-300x300.png"
                     width="40px" height="40px" alt="Github">
-                <div id="contact-phone">+91-7004565094</div>
+                <button id="ViewBtn">View More...</button>
+                <a href="tel:+91-7004565094" rel="noreferrer"  target="_blank" id="contact-phone" style="display: none; font-size: 15px;"></a>
+            </a>
+            
+            <!-- EMAIL -->
+
+            <a href="#contact" class="SmallAnc" id="SmallAnc2">
+                <div>Email</div>
+                <img src="https://th.bing.com/th/id/R.3a5a64ffc3965f939226962d056e9fd6?rik=6tgagpS2WlYs9w&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2010%2f01%2fsimple-email-icon-vector-free_129913.png&ehk=b2UTfuLjT4nCGQqvfjAp4xkbdYmkzPt5NNHcOSd%2fF%2fM%3d&risl=&pid=ImgRaw&r=0"
+                    width="40px" height="40px" alt="Email">
+                <button id="ViewBtn2">View More...</button>
+                <a href="amanmandal644@gmail.com" rel="noreferrer" target="_blank" id="contact-email" style="display: none;">amanmandal644@gmail.com</a>
             </a>
 
+            <!-- GITHUB -->
+
+            <a href="#contact" class="SmallAnc" id="SmallAnc3">
+                <div>Github</div>
+                <img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png"
+                    width="40px" height="40px" alt="Github">
+                <button id="ViewBtn3">View More...</button>
+                <a href="https://github.com/Amanmandal-M" target="_blank" id="contact-github" style="display: none; font-size: 15px; ">Amanmandal-M</a>
+            </a>
+
+            <!-- LINKEDIN -->
+
+            <a href="#contact" class="SmallAnc" id="SmallAnc4">
+                <div>LinkedIn</div>
+                <img src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png"
+                    width="40px" height="40px" alt="LinkedIn">
+                <button id="ViewBtn4">View More...</button>
+                <a href="https://www.linkedin.com/in/aman-kumar-657080101/" target="_blank" id="contact-linkedin" style="display: none; font-size: 15px;">Aman Kumar</a>
+            </a>
+
+            <!-- LOCATION -->
+        
+            <a href="#contact" class="SmallAnc" id="SmallAnc5">
+                <div>Location</div>
+                <img src="https://static.vecteezy.com/system/resources/previews/000/437/977/original/vector-location-icon.jpg"
+                    width="40px" height="40px" alt="LinkedIn">
+                <button id="ViewBtn5">View More...</button>
+                <a href="https://www.google.co.in/maps/place/23.746890,86.156104/@23.7475956,86.1572614,17.89z/data=!4m6!3m5!1s0x39f418c23ffdbfa9:0x7ebdbf3c5aeac30f!7e2!8m2!3d23.7468887!4d86.1561048" target="_blank" id="contact-location" style="display: none; font-size: 15px;">View Location</a>
+            </a>
 
         </div>
         <div class="SmallContact2">
@@ -356,17 +399,17 @@
 </script>
 
 <script>
-// ============== Github Calendar ==============
+    // ============== Github Calendar ==============
 
-GitHubCalendar(".react-activity-calendar", "Amanmandal-M");
+    GitHubCalendar(".react-activity-calendar", "Amanmandal-M");
 
-// or enable responsive functionality:
-GitHubCalendar(".react-activity-calendar", "Amanmandal-M", { responsive: true });
+    // or enable responsive functionality:
+    GitHubCalendar(".react-activity-calendar", "Amanmandal-M", { responsive: true });
 
-// Use a proxy
-GitHubCalendar(".react-activity-calendar", "Amanmandal-M", {
-    proxy(username) {
-        return fetch(`https://your-proxy.com/github?user=${username}`)
-    }
-})
+    // Use a proxy
+    GitHubCalendar(".react-activity-calendar", "Amanmandal-M", {
+        proxy(username) {
+            return fetch(`https://your-proxy.com/github?user=${username}`)
+        }
+    })
 </script>

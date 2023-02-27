@@ -46,6 +46,7 @@
   <!-- - About section : id="about" class="about section" -->
   <!-- - Skills section : id="skills" -->
   <!-- - Projects section : id="projects" -->
+
   <!-- - Contact section : id="contact" -->
 <!-- - The elements within the navbar linked to the above 4 sections should have the following.
   - Element linked to Home section : class="nav-link home"

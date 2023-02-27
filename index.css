@@ -1271,15 +1271,35 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
-    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    width: 90%;
+    background-color: white;
     margin: auto;
     margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  #contact-phone,
+  #contact-email,
+  #contact-github,
+  #contact-location,
+  #contact-linkedin{
+    text-decoration: none;
+    color: rgb(21, 147, 198);
   }
 
 
+  #ViewBtn,#ViewBtn2,#ViewBtn3,#ViewBtn4,#ViewBtn5{
+     font-size: 16px;
+     padding: 5px;
+     border-radius: 20px;
+     border: none;
+     background-color: skyblue;
+  }
 
-
+  #ViewBtn:hover,#ViewBtn2:hover,#ViewBtn3:hover,#ViewBtn4:hover,#ViewBtn5:hover{
+    cursor: pointer;
+  }
 
 
 
