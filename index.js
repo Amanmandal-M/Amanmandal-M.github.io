@@ -595,7 +595,7 @@ let MainAnchor5 = document.querySelector("#SmallAnc5");
 ViewButton5.addEventListener("click", () => {
   MainAnchor5.innerHTML = "";
   MainAnchor5.innerHTML = `
-  <div>LinkedIn</div>
+  <div>Location</div>
   <a href="https://www.google.co.in/maps/place/23.746890,86.156104/@23.7475956,86.1572614,17.89z/data=!4m6!3m5!1s0x39f418c23ffdbfa9:0x7ebdbf3c5aeac30f!7e2!8m2!3d23.7468887!4d86.1561048" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/000/437/977/original/vector-location-icon.jpg" width="40px" height="40px" alt="Github"></a>
   <a href="https://www.google.co.in/maps/place/23.746890,86.156104/@23.7475956,86.1572614,17.89z/data=!4m6!3m5!1s0x39f418c23ffdbfa9:0x7ebdbf3c5aeac30f!7e2!8m2!3d23.7468887!4d86.1561048" target="_blank" id="contact-location" font-size: 15px;>View Location</a>
   `;

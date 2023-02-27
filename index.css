@@ -1241,7 +1241,6 @@
   }
 
   #contacts{
-     border: 1px solid red;
      width: 92%;
      height: 400px;
      margin: auto;
@@ -1252,18 +1251,10 @@
   }
 
   .SmallContact1{
-    border: 1px solid green;
-    width: 35%;   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 35%;
+    border-radius: 20px ;   
   }
-
-  .SmallContact2{
-    border: 1px solid green;
-    width: 55%;
-  }
-
-  /* .ContactNameTitle{
-    display: inline;
-  } */
 
   .SmallAnc{
     text-decoration: none;
@@ -1302,11 +1293,69 @@
   }
 
 
+  /* ========== Message Section ========== */
+
+  .SmallContact2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px ; 
+    width: 55%;
+  }
+
+#inputTags{
+  width: 90%;
+  height: 40%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+#msgData{
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  padding-left: 12px;
+}
 
 
+#textTag{
+  width: 90%;
+  height: 38%;
+  margin: auto;
+  margin-top: 10px;
+}
 
+textarea{
+  width: 97.6%;
+  height: 98%;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  padding-left: 12px;
+  padding-top: 5px;
+}
 
+#SendMsg{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
 
+#buttonSend{
+  background-color: skyblue;
+  padding: 10px 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+}
+
+#buttonSend:hover{
+  cursor: pointer;
+  width: 30%;
+  background-color: rgb(58, 152, 189);
+}
 
 
 

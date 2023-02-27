@@ -15,10 +15,6 @@
 </head>
 
 <body onload="AutoRefresh(220000)">
-    <!-- ===== -->
-    <div id="tops">.</div>
-    <!-- ===== -->
-
     <!--=============== Nav Bar & Home ===============-->
 
     <div class="hero" id="home">
@@ -32,7 +28,7 @@
                     <span></span>
                 </label>
                 <ul class="menu__box">
-                    <li class="naving"><a id="menu__item" class="nav-link home" href="#tops">Home</a></li>
+                    <li class="naving"><a id="menu__item" class="nav-link home" href="#">Home</a></li>
                     <li class="naving"><a id="menu__item" class="nav-link about" href="#user-detail-intro">About</a>
                     </li>
                     <li class="naving"><a id="menu__item" class="nav-link skills" href="#skillss">Skills</a></li>
@@ -48,7 +44,7 @@
             <h1 id="user-detail-name"></h1>
             <p id="user-detail-intro"></p>
             <div></div>
-            <a href="#">Contact Me</a>
+            <a href="#contact">Contact Me</a>
         </div>
         <div class="images">
             <img src="./Images/back.webp" id="shape">
@@ -65,12 +61,14 @@
         <div id="skillss"></div>
         <!-- ===== -->
 
-        <div id="user-detail-intro" class="texting">Enthusiastic to explore and learn new technology. Almost
-            1200+ hours of actual coding experience in creating
-            several web-based applications have helped to address
-            over 700 data structure and algorithm issues. Open to
-            working as a software engineer to create technologies that
-            are sufficient and scalable.
+        <div id="user-detail-intro" class="texting">
+            I have completed my graduation in BCA.
+            <br>
+            <br>
+            After completing graduation I was interested in coding. So I joined Masai School to enhance my skills
+            and become a Full-Stack Web Developer. I had an intense 11-11-6 curriculum in Masai with 1200+ hours of
+            hands-on experience in coding and developing websites using different tech stacks like HTML, CSS,
+            JavaScript, Nodejs, MongoDB, Express, etc.
         </div>
         <a href="./Resume/Aman_Kumar_Resume.pdf" id="resume-link-1" download="">Download CV</a>
     </div>
@@ -342,7 +340,7 @@
                 <button id="ViewBtn">View More...</button>
                 <a href="tel:+91-7004565094" rel="noreferrer"  target="_blank" id="contact-phone" style="display: none; font-size: 15px;"></a>
             </a>
-            
+            <br>
             <!-- EMAIL -->
 
             <a href="#contact" class="SmallAnc" id="SmallAnc2">
@@ -352,7 +350,7 @@
                 <button id="ViewBtn2">View More...</button>
                 <a href="amanmandal644@gmail.com" rel="noreferrer" target="_blank" id="contact-email" style="display: none;">amanmandal644@gmail.com</a>
             </a>
-
+            <br>
             <!-- GITHUB -->
 
             <a href="#contact" class="SmallAnc" id="SmallAnc3">
@@ -362,7 +360,7 @@
                 <button id="ViewBtn3">View More...</button>
                 <a href="https://github.com/Amanmandal-M" target="_blank" id="contact-github" style="display: none; font-size: 15px; ">Amanmandal-M</a>
             </a>
-
+            <br>
             <!-- LINKEDIN -->
 
             <a href="#contact" class="SmallAnc" id="SmallAnc4">
@@ -372,7 +370,7 @@
                 <button id="ViewBtn4">View More...</button>
                 <a href="https://www.linkedin.com/in/aman-kumar-657080101/" target="_blank" id="contact-linkedin" style="display: none; font-size: 15px;">Aman Kumar</a>
             </a>
-
+            <br>
             <!-- LOCATION -->
         
             <a href="#contact" class="SmallAnc" id="SmallAnc5">
@@ -384,8 +382,21 @@
             </a>
 
         </div>
+        <!-- Message Section -->
         <div class="SmallContact2">
-
+            <div id="inputTags">
+                <input type="text" id="msgData" placeholder="Enter Your Name" required>
+                <input type="email" id="msgData" placeholder="Enter Your Email" required>
+                <input type="text" id="msgData" placeholder="Enter Your Subject" required>
+            </div>
+            <div id="textTag">
+                <textarea name="message" placeholder="Enter Your Message" spellcheck="false"></textarea>
+            </div>
+            <div id="SendMsg">
+                <button id="buttonSend">
+                    Send Message
+                </button>
+            </div>
         </div>
     </div>
 
