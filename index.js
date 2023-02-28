@@ -148,6 +148,31 @@ function ImageSlider3() {
   }, 4000);
 }
 
+// // F1-F7
+// var d4;
+// function ImageSlider4() {
+//   let ImgArr = [
+//     "./Images/F1.png",
+//     "./Images/F2.png",
+//     "./Images/F3.png",
+//     "./Images/E4.png",
+//     "./Images/F5.png",
+//     "./Images/F6.png",
+//     "./Images/F7.png"
+//   ];
+
+//   let i = 0;
+//   let data;
+//   d4 = setInterval(() => {
+//     document.querySelector(".pr_img").src = ImgArr[i];
+//     i++;
+//     data = i;
+//     if (data >= 7) {
+//       i = 0;
+//     }
+//   }, 4000);
+// }
+
 //  ======================= Globally Image Changes =========================
 
 let i = 0;

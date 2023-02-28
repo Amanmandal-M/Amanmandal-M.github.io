@@ -284,7 +284,7 @@
   .detel {
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 150px;
     padding-top: 10px;
     text-align: center;
   }
@@ -358,7 +358,7 @@
     width: 50%;
     height: auto;
     margin: auto;
-    margin-top: 210px;
+    margin-top: 220px;
     text-align: center;
     padding: 10px;
   }
@@ -676,6 +676,7 @@
     color: #000;
     margin-right: 10px;
   }
+
   .project-github-link:hover,
   .project-deployed-link:hover {
     width: 18%;
@@ -703,6 +704,204 @@
     height: 120%;
     transition: 0.5s;
   }
+
+  /* GIT HUB  */
+
+  .githead {
+    text-align: center;
+    border-right: 2px dotted purple;
+    border-left: 2px dotted purple;
+    border-top: 2px dotted purple;
+    padding-bottom: 5px;
+    width: 92%;
+    margin: auto;
+    font-family: cursive;
+    padding-top: 10px;
+  }
+
+  #GitHubCalender {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 92%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+  }
+  .StatsImg {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+  }
+
+  #githeads {
+    margin-top: 30px;
+  }
+
+  #github-stats-card {
+    width: 60%;
+  }
+
+  #github-top-langs {
+    height: 300px;
+  }
+
+  .commit{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+  }
+
+  #git{
+    width: 92%;
+    height: 100%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
+  /* ============= Contact Section ============= */
+
+  #contact{
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    margin-top: 20px;
+  }
+
+  #contacts{
+     width: 92%;
+     height: 400px;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 40px;
+     display: flex;
+     justify-content: space-between;
+  }
+
+  .SmallContact1{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 40%;
+    border-radius: 20px ;   
+  }
+
+  .SmallAnc{
+    text-decoration: none;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  #contact-phone,
+  #contact-email,
+  #contact-github,
+  #contact-location,
+  #contact-linkedin{
+    text-decoration: none;
+    color: rgb(21, 147, 198);
+  }
+
+
+  #ViewBtn,#ViewBtn2,#ViewBtn3,#ViewBtn4,#ViewBtn5{
+     font-size: 16px;
+     padding: 5px;
+     border-radius: 20px;
+     border: none;
+     background-color: skyblue;
+  }
+
+  #ViewBtn:hover,#ViewBtn2:hover,#ViewBtn3:hover,#ViewBtn4:hover,#ViewBtn5:hover{
+    cursor: pointer;
+  }
+
+
+  /* ========== Message Section ========== */
+
+  .SmallContact2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px ; 
+    width: 55%;
+  }
+
+#inputTags{
+  width: 90%;
+  height: 40%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+#msgData{
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  padding-left: 12px;
+}
+
+
+#textTag{
+  width: 90%;
+  height: 38%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+textarea{
+  width: 97.6%;
+  height: 98%;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+
+#SendMsg{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#buttonSend{
+  background-color: skyblue;
+  padding: 10px 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+}
+
+#buttonSend:hover{
+  cursor: pointer;
+  width: 30%;
+  background-color: rgb(58, 152, 189);
+}
+
+
+
+  /* ========== Global Changes in Main Heading ========== */
+  span{
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  /* ========== ==============================  ========== */
+
 }
 
 /* Large Screen */
@@ -785,15 +984,17 @@
     width: 40%;
     position: absolute;
     top: 0;
-    left: 40px;
+    left: 100px;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 40px;
     transition: 0.3s;
+    border: 1px solid grey;
   }
 
   #shape {
-    width: 100%;
-    border-radius: 20px;
+    /* width: 100%;
+    border-radius: 20px; */
+    display: none;
   }
 
   .home-img:hover {
