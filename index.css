@@ -6,7 +6,7 @@
 }
 body{
     background: rgb(46, 41, 41);
-    color:rgb(58, 120, 243);
+    color:rgb(147, 201, 39);
 }
 /* nav bar css start */
 #nav-menu{
@@ -35,7 +35,7 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color: rgb(58, 120, 243);
+    color: rgb(147, 201, 39);
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -44,7 +44,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: rgb(58, 120, 243);
+    background-color: rgb(147, 201, 39);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -53,13 +53,12 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-@media screen and (min-width:320px) and (max-width:650px){
+@media screen and (min-width:280px) and (max-width:900px){
     nav .fas{
         display: block;
         font-size: 22px;
     }
     nav ul{
-
         position: fixed;
         top: 0;
         right: -200px;
@@ -102,18 +101,18 @@ nav ul li a:hover::after{
     padding: 10px 30px;
     border-radius: 10px;
     border: 0px solid rgb(46, 41, 41);
-    background-color: rgb(58, 120, 243);
+    background-color: rgb(147, 201, 39);
     color: rgb(46, 41, 41);
     font-size: 22px;
 }
 #detials button:hover{
     cursor: pointer;
     background-color: rgb(46, 41, 41);
-    color: rgb(58, 120, 243);
-    border: 1px solid rgb(58, 120, 243);
+    color: rgb(147, 201, 39);
+    border: 1px solid rgb(147, 201, 39);
 }
 #detials button a:hover{
-    color: rgb(58, 120, 243);
+    color: rgb(147, 201, 39);
 }
 #home .home-img{
     border-radius: 100px;
@@ -154,14 +153,25 @@ nav ul li a:hover::after{
    width: 80%;
     padding-left: 20px;
     padding-bottom: 30px;
-    border-radius: 9%;
 }
 #user-detail-intro{
     display: flex;
     align-items: center;
+    text-align: justify;
     text-justify:inter-word;
     padding: 0px 20px;
     font-size: 22px;
+}
+
+@media screen and (min-width:280px) and (max-width:653px){
+    #about_details{
+    grid-template-columns: repeat(1,1fr);
+   }
+}
+@media screen and (min-width:654px) and (max-width:1024px){
+   #about_details{
+    grid-template-columns: repeat(1,1fr);
+   }
 }
 /* about section css end */
 
@@ -239,7 +249,7 @@ nav ul li a:hover::after{
 .project-card{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px 20px;
-    border: 2px solid rgb(58, 120, 243);
+    border: 2px solid rgb(147, 201, 39);
 }
 .all_links_project{
     display: flex;
@@ -293,7 +303,7 @@ nav ul li a:hover::after{
     justify-content: space-around;
 }
 #contact_inner a{
-    color: rgb(58, 120, 243);
+    color: rgb(147, 201, 39);
     text-decoration: none;
 }
 #contact_inner i{
@@ -337,6 +347,3 @@ nav ul li a:hover::after{
     }
 }
 /* Github css end */
-
-
-
