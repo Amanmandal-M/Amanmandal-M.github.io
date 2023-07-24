@@ -1,4 +1,4 @@
-# Student Portfolio Analysers
+# Student Portfolio Analyser
 
 ## Maximum Marks - 34
 
