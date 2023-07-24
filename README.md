@@ -112,9 +112,7 @@ Throughout my professional development, I have acquired a diverse range of skill
 
 My portfolio showcases a collection of projects that I have undertaken, each one representing a unique blend of creativity and technical expertise. Some notable projects include:
 
-### List of projects: 
-
-<br>
+### List of projects :  
 
 <h3><a href="https://parenting-influencer-app.vercel.app/"><strong>FamilyGuide AI :</strong></a></h3> 
 
