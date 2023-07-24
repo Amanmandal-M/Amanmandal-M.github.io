@@ -36,70 +36,70 @@ Throughout my professional development, I have acquired a diverse range of skill
         </tr>
     </thead>
     <tbody>
-        <tr style="text-align:center">
-            <td>HTML</td>
-            <td>Node.js</td>
-            <td>VS Code</td>
+        <tr>
+            <td style="text-align:center">HTML</td>
+            <td style="text-align:center">Node.js</td>
+            <td style="text-align:center">VS Code</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">CSS</td>
+            <td style="text-align:center">Express.js</td>
+            <td style="text-align:center">GitHub</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">JavaScript</td>
+            <td style="text-align:center">NPM</td>
+            <td style="text-align:center">Render</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">Angular.js</td>
+            <td style="text-align:center">Python</td>
+            <td style="text-align:center">Railway</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">React.js</td>
+            <td style="text-align:center">Flask</td>
+            <td style="text-align:center">Netlify</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">Scss</td>
+            <td style="text-align:center">PIP</td>
+            <td style="text-align:center">Vercel</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">React.js</td>
+            <td style="text-align:center">Flask</td>
+            <td style="text-align:center">Netlify</td>
+        </tr>
+        <tr>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">TypeScript</td>
+            <td style="text-align:center">GenAI (ChatGPT-3.5)</td>
         </tr>
         <tr style="text-align:center">
-            <td>CSS</td>
-            <td>Express.js</td>
-            <td>GitHub</td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">MongoDB</td>
+            <td style="text-align:center">Slack</td>
+        </tr>
+        <tr>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">MySQL</td>
+            <td style="text-align:center">Google Drive</td>
         </tr>
         <tr style="text-align:center">
-            <td>JavaScript</td>
-            <td>NPM</td>
-            <td>Render</td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">OpenAI</td>
+            <td style="text-align:center">Replit</td>
         </tr>
-        <tr style="text-align:center">
-            <td>Angular.js</td>
-            <td>Python</td>
-            <td>Railway</td>
+        <tr>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">AWS</td>
+            <td style="text-align:center">CodePen</td>
         </tr>
-        <tr style="text-align:center">
-            <td>React.js</td>
-            <td>Flask</td>
-            <td>Netlify</td>
-        </tr>
-        <tr style="text-align:center">
-            <td>Scss</td>
-            <td>PIP</td>
-            <td>Vercel</td>
-        </tr>
-        <tr style="text-align:center">
-            <td>React.js</td>
-            <td>Flask</td>
-            <td>Netlify</td>
-        </tr>
-        <tr style="text-align:center">
-            <td></td>
-            <td>TypeScript</td>
-            <td>GenAI (ChatGPT-3.5)</td>
-        </tr>
-        <tr style="text-align:center">
-            <td></td>
-            <td>MongoDB</td>
-            <td>Slack</td>
-        </tr>
-        <tr style="text-align:center">
-            <td></td>
-            <td>MySQL</td>
-            <td>Google Drive</td>
-        </tr>
-        <tr style="text-align:center">
-            <td></td>
-            <td>OpenAI</td>
-            <td>Replit</td>
-        </tr>
-        <tr style="text-align:center">
-            <td></td>
-            <td>AWS</td>
-            <td>CodePen</td>
-        </tr>
-        <tr style="text-align:center">
-            <td></td>
-            <td></td>
-            <td>CodeSandBox</td>
+        <tr>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">CodeSandBox</td>
         </tr>
     </tbody>
 </table>
