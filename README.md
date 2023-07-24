@@ -27,12 +27,12 @@ Throughout my professional development, I have acquired a diverse range of skill
 
 ### List of skills: 
 
-<table>
-    <thead>
+<table style="margin:auto;width:50%;text-align:center">
+    <thead >
         <tr>
-            <th><strong>Frontend</strong></th>
-            <th><strong>Backend</strong></th>
-            <th><strong>Tools</strong></th>
+            <th style="text-align:center"><strong>Frontend</strong></th>
+            <th style="text-align:center"><strong>Backend</strong></th>
+            <th style="text-align:center"><strong>Tools</strong></th>
         </tr>
     </thead>
     <tbody>
@@ -116,39 +116,39 @@ My portfolio showcases a collection of projects that I have undertaken, each one
 
 <br>
 
-<h3><strong>FamilyGuide AI :</strong></h3>
+<h3><a href="https://parenting-influencer-app.vercel.app/"><strong>FamilyGuide AI :</strong></a></h3> 
 
-Parenting Influencer AI is an AI-powered application providing expert advice on parenting, child development, and family dynamics. 
+ - Parenting Influencer AI is an AI-powered application providing expert advice on parenting, child development, and family dynamics. 
 
-Our mission is to support caregivers with personalized insights and promote positive parenting techniques for nurturing healthy family relationships. Available in both Hindi and English languages.
+ - Our mission is to support caregivers with personalized insights and promote positive parenting techniques for nurturing healthy family relationships. Available in both Hindi and English languages.
 
-<h3><strong>Zesty Zomato System :</strong></h3> 
+<h3><a href="https://zesty-zomato.netlify.app/"><strong>Zesty Zomato System :</strong></a></h3>
 
-Introducing Zesty Zomato! Order food effortlessly with a user-friendly interface. Register or log in quickly to explore a world of culinary delights.
+ - Introducing Zesty Zomato! Order food effortlessly with a user-friendly interface. Register or log in quickly to explore a world of culinary delights.
 
-Browse our extensive menu and enjoy live order status updates. Our chat bot is here to help you anytime. Admins have powerful tools to manage the menu and review orders efficiently.
+ - Browse our extensive menu and enjoy live order status updates. Our chat bot is here to help you anytime. Admins have powerful tools to manage the menu and review orders efficiently.
 
-Join us now to elevate your restaurant experience with delicious food and seamless interactions.
+ - Join us now to elevate your restaurant experience with delicious food and seamless interactions.
 
-<h3><strong>Dental Booking Appointment System :</strong></h3> 
+<h3><a href="https://dentcare24x7.netlify.app/"><strong>Dental Booking Appointment System :</strong></a></h3> 
 
-Welcome to our Dental Booking System! Simplifying the process of scheduling dental appointments, our platform offers convenient login, sign-up, service, doctors, and appointment booking features. 
+ - Welcome to our Dental Booking System! Simplifying the process of scheduling dental appointments, our platform offers convenient login, sign-up, service, doctors, and appointment booking features. 
 
-Our experienced team of dental professionals is dedicated to providing top-notch care tailored to your needs. Trust us for a seamless.
+ - Our experienced team of dental professionals is dedicated to providing top-notch care tailored to your needs. Trust us for a seamless.
 
-<h3><strong>Hair Salon Booking Appointment System :</strong></h3> 
+<h3><a href="https://snipsandspikes.netlify.app/"><strong>Hair Salon Booking Appointment System :</strong></a></h3> 
 
 This is Hair Salon Booking Appointment System here user can register with valid credentials and also they can login and view the stylers and services and book appointement by their choice.
 
-<h3><strong>Face Time Video Chat App :</strong></h3> 
+<h3><a href="https://face-time-video.netlify.app/"><strong>Face Time Video Chat App :</strong></a></h3> 
 
 Face time chat app is a video chat project built using HTML, CSS, JavaScript, Express, Mongoose, Node.js, Socket.io, and WebRTC. The app allows users to communicate through chat messages and video calls in real-time.
 
-<h3><strong>India Mart Clone :</strong></h3> 
+<h3><a href="https://hind-bazaar.netlify.app/"><strong>India Mart Clone :</strong></a></h3>
 
 Hindmart is a clone of Indiamart. It is an Indian e-commerce website that provides B2C, B2B and customer to customer sales services via its web portal.
 
-<h3><strong>Sephora Clone :</strong></h3> 
+<h3><a href="https://c4ra-store.netlify.app/"><strong>Sephora Clone :</strong></a></h3>
 
 A Sephora consists of beauty make up products and where you can purchase the products related to Makeup things .
 
