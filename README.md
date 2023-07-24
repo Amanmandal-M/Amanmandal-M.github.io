@@ -36,67 +36,67 @@ Throughout my professional development, I have acquired a diverse range of skill
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="text-align:center">
             <td>HTML</td>
             <td>Node.js</td>
             <td>VS Code</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td>CSS</td>
             <td>Express.js</td>
             <td>GitHub</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td>JavaScript</td>
             <td>NPM</td>
             <td>Render</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td>Angular.js</td>
             <td>Python</td>
             <td>Railway</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td>React.js</td>
             <td>Flask</td>
             <td>Netlify</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td>Scss</td>
             <td>PIP</td>
             <td>Vercel</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td>React.js</td>
             <td>Flask</td>
             <td>Netlify</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td></td>
             <td>TypeScript</td>
             <td>GenAI (ChatGPT-3.5)</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td></td>
             <td>MongoDB</td>
             <td>Slack</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td></td>
             <td>MySQL</td>
             <td>Google Drive</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td></td>
             <td>OpenAI</td>
             <td>Replit</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td></td>
             <td>AWS</td>
             <td>CodePen</td>
         </tr>
-        <tr>
+        <tr style="text-align:center">
             <td></td>
             <td></td>
             <td>CodeSandBox</td>
