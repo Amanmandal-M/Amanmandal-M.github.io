@@ -541,6 +541,60 @@ img.man-icons {
   transition: 1s;
 }
 
+/* <!-------------- Experience Section ---------------!> */
+
+.experience-container {
+  gap: 2rem;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% - 2rem);
+  margin: auto;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border: 1px solid #100D30;
+  border-radius: 1.4rem;  
+}
+
+.experience-img{
+  overflow: hidden;
+  width: 20%;
+}
+
+.experience-img img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.exp-title {
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+  text-align: center;
+  color: #0c1c40;
+}
+
+.exp-title-1{
+  font-size: 19px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.expData{ 
+  font-size: medium;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+#nopaperFormsTitle {
+  font-size: small;
+  color: rgb(164, 158, 158);
+}
+
+.workExpo {
+  width: 75%;
+}
+
 /* <!--------------------- Contact Section ---------------------> */
 .footer {
   background-color: var(--main-color);
