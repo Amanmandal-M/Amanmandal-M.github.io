@@ -66,9 +66,9 @@ document.querySelector("#resume-button-1").addEventListener("click", () => {
 });
 
 var typing = new Typed(".text", {
-  strings: ["FullStack Web", "Developer", "NodeJs Backend", "Developer"],
+  strings: ["FullStack Web Developer", "Prompt Engineer"],
   typeSpeed: 90,
-  backSpeed: 85,
+  backSpeed: 80,
   loop: true,
 });
 
