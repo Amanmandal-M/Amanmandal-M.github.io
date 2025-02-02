@@ -61,12 +61,12 @@ sr.reveal(".contact-input", { interval: 100 });
 
 document.querySelector("#resume-button-1").addEventListener("click", () => {
   window.open(
-    "https://drive.google.com/file/d/1lyYfuQk3gqFDxPVYotKnOvk06lADgI8h/view?usp=sharing"
+    "https://drive.google.com/file/d/14YYtYQ2TWK9J8KdAeMt8ERLnXjoP5kUX/view?usp=sharing"
   );
 });
 
 var typing = new Typed(".text", {
-  strings: ["FullStack Web Developer", "Prompt Engineer"],
+  strings: ["Full Stack Web Developer", "Prompt Engineer", "Analyst",],
   typeSpeed: 90,
   backSpeed: 80,
   loop: true,
@@ -75,12 +75,12 @@ var typing = new Typed(".text", {
 // 1st
 function resumeClick1() {
   window.open(
-    "https://drive.google.com/file/d/1lyYfuQk3gqFDxPVYotKnOvk06lADgI8h/view?usp=sharing"
+    "https://drive.google.com/file/d/14YYtYQ2TWK9J8KdAeMt8ERLnXjoP5kUX/view?usp=sharing"
   );
 }
 // 2nd
 function resumeClick2() {
   window.open(
-    "https://drive.google.com/file/d/1lyYfuQk3gqFDxPVYotKnOvk06lADgI8h/view?usp=sharing"
+    "https://drive.google.com/file/d/14YYtYQ2TWK9J8KdAeMt8ERLnXjoP5kUX/view?usp=sharing"
   );
 }

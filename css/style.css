@@ -544,56 +544,40 @@ img.man-icons {
 /* <!-------------- Experience Section ---------------!> */
 
 .experience-container {
-  gap: 2rem;
-  max-width: 1024px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: calc(100% - 2rem);
-  margin: auto;
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-  border: 1px solid #100D30;
-  border-radius: 1.4rem;  
+  max-width: 83%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.timeline {
+  position: relative;
+  padding: 10px 0;
+}
+.timeline-item {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-left: 3px solid #007bff;
+}
+.timeline-item h3 {
+  margin: 0;
+  color: #007bff;
+}
+.timeline-item p {
+  margin: 5px 0;
+  color: #555;
+}
+.timeline-item ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+.timeline-item li {
+  margin-bottom: 5px;
+  color: #333;
+  list-style-type: disc;
 }
 
-.experience-img{
-  overflow: hidden;
-  width: 20%;
-}
-
-.experience-img img {
-  width: 150px;
-  border-radius: 50%;
-}
-
-.exp-title {
-  font-size: var(--h2-font-size);
-  font-weight: 700;
-  text-align: center;
-  color: #0c1c40;
-}
-
-.exp-title-1{
-  font-size: 19px;
-  margin-top: 10px;
-  margin-left: 10px;
-  font-weight: 700;
-}
-
-.expData{ 
-  font-size: medium;
-  margin-left: 10px;
-  font-weight: 500;
-}
-
-#nopaperFormsTitle {
-  font-size: small;
-  color: rgb(164, 158, 158);
-}
-
-.workExpo {
-  width: 75%;
-}
 
 /* <!--------------------- Contact Section ---------------------> */
 .footer {
